@@ -9,7 +9,7 @@
 }
 
 .header{
-    background-image: url(./IMAGES/toys-spending-pandemic-Mattel.jpg);
+    background-image: url(./assets/images/toys-spending-pandemic-Mattel.jpg);
     min-height: 150px;
     background-position: center;
     
@@ -74,7 +74,7 @@ a:hover{
 }
 
 .fonas{
-    background-image: url(./IMAGES/rene-olivares-toycity.jpg);
+    background-image: url(./assets/images/rene-olivares-toycity.jpg);
     min-height: 950px;
     background-position: center;
     background-repeat: no-repeat;
