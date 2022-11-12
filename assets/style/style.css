@@ -64,7 +64,6 @@
 
 .section1{
     background-image: url(../images/rene-olivares-toycity.jpg);
-    background-color: #e1e3e2;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1500px;
@@ -166,6 +165,7 @@
 .video1{
     border: #328012 dotted 5px;
     height: 180px;
+    
 }
 
 
@@ -256,8 +256,7 @@
 
 .footer{
     height: 40px;
-    background-color: #e1e3e2;
-    
+        
 }
 
 .div-footer{
@@ -269,4 +268,52 @@
 
 .div-footer p{
     margin-left: 10px;
+}
+
+
+
+.section1-products{
+    background-image: url(../images/rene-olivares-toycity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    height: 480px;
+    
+                
+}
+
+.wrapper-products{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    min-height: 480px;
+}
+
+.assortment{
+    padding-top: 20px;
+    border: red solid 2px;
+    text-align: center;
+    
+}
+
+
+.item{
+    width: 25%;
+    margin: 0 20px;
+    padding: 0px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.item img{
+    height: 260px;
+    padding: 25px;
+    
+}
+
+
+.item img:hover{
+    height: 310px;
+    padding: 0px 0px;
+    transition: 0.5s;
 }

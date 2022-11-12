@@ -5,29 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Žaislų parduotuvė</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
-<body>
-    <img src="./IMAGES/abczaislogo.jpg" width="200" alt="logo">
-    <hr>
-    <a href="./index.html" target="_blank">Pagrindinis</a>
-    <a href="./produktai.html" target="_blank">Produktai</a>
-    <a href="#">Kontaktai</a>                                        <!--TIKSLINTI NUORODĄ-->
-    <hr>
-    <h1>LABAI GERI ŽAISLAI</h1>
-    <br>
-        
-    <a href="./assets/produktai/produktas1.html" target="_blank"> <img src="./IMAGES/Zaislas1.jpg" height="200" alt="Zaislas1"></a>
-    <a href="./assets/produktai/produktas2.html" target="_blank"> <img src="./IMAGES/Zaislas2.jpg" height="200" alt="Zaislas1"></a>
-    <a href="./assets/produktai/produktas3.html" target="_blank"> <img src="./IMAGES/Zaislas3.jpg" height="200" alt="Zaislas1"></a>
-    <br>
-        <p>Perkant 2 - 1 dovanų</p>
-    <br>
-    <hr>
-    &copy; :)
+<body class="body">
+    <header class="header">
+        <div class="wrapper">
+            <img src="./assets/images/Eko_Toys_Logo.png" alt="logo">
+        </div>
+    </header>
 
+    <nav>
+        <div class="nav">
+            <!--Elementai ne "ul", kad "hover" pleciantis elementui nepasistumtu i sona kiti-->
+            <a href="./index.html" target="_blank">Pagrindinis</a>
+            <a href="./produktai.html" target="_blank">Produktai</a>
+            <a href="#">Kontaktai</a>
+            <!--TIKSLINTI NUORODĄ-->
+        </div>
+    </nav>
 
+    <main>
+        <section class="section1-products">
+            <div class="wrapper-products">
+                <div class="assortment">
+                    <div class="item">
+                        <h2>ŽAISLAS "BAUBAS"</h2>
+                        <a href="./assets/produktai/produktas1.html"><img src="./assets/images/Zaislas1.jpg" alt="zaislas1.jpg"></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quod impedit, voluptatum inventore eaque cum ad cumque exercitationem laudantium! Officiis, cumque perspiciatis aspernatur esse maiores unde quod quasi eaque illo.</p>
+                        </div>
+                    <div class="item">
+                        <h2>ŽAISLAS "ZUIKIS"</h2>
+                        <a href="./assets/produktai/produktas2.html"><img src="./assets/images/Zaislas2.jpg" alt="zaislas2.jpg"></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quod impedit, voluptatum inventore eaque cum ad cumque exercitationem laudantium! Officiis, cumque perspiciatis aspernatur esse maiores unde quod quasi eaque illo.</p>
+                    </div>
+                    <div class="item">
+                        <h2>ŽAISLAS "KATINAS"</h2>
+                        <a href="./assets/produktai/produktas3.html"><img src="./assets/images/Zaislas3.jpg" alt="zaislas3.jpg"></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quod impedit, voluptatum inventore eaque cum ad cumque exercitationem laudantium! Officiis, cumque perspiciatis aspernatur esse maiores unde quod quasi eaque illo.</p>
+                    </div>
+                </div>
+            </div>
 
+        </section>
 
-
+  
+        <footer class="footer">
+            <div class="div-footer">
+                <p>&copy; Mano pirmas puslapis</p>
+            </div>
+        </footer>
+    
+          
+    
 </body>
 </html>
