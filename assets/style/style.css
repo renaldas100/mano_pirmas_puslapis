@@ -319,10 +319,10 @@
 }
 
 .div-products{
-    width: 45%;
+    max-width: 800px;
     display: inline-block;
     vertical-align: top;
-       
+    border: red solid 2px;   
 }
 
 .div-products p{
