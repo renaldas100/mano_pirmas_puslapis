@@ -278,7 +278,7 @@
     background-repeat: no-repeat;
     background-size: 1500px;
     height: 480px;
-    
+       
                 
 }
 
@@ -287,11 +287,11 @@
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.6);
     min-height: 480px;
+    
 }
 
 .assortment{
     padding-top: 20px;
-    border: red solid 2px;
     text-align: center;
     
 }
@@ -316,4 +316,29 @@
     height: 310px;
     padding: 0px 0px;
     transition: 0.5s;
+}
+
+.div-products{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+       
+}
+
+.div-products p{
+   padding: 5px;
+    
+}
+
+
+.contacts p{
+    padding-top: 20px;
+    padding-left: 100px;
+        
+}
+
+.contacts h2{
+    padding-top: 20px;
+    padding-left: 100px;
+        
 }

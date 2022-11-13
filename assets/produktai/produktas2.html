@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Žaislų parduotuvė</title>
+    <link rel="stylesheet" href="../style/style.css">
 </head>
-<body>
-    <img src="../IMAGES/abczaislogo.jpg" width="200" alt="logo">
-    <hr>
-    <a href="../index.html" target="_blank">Pagrindinis</a>
-    <a href="../produktai.html" target="_blank">Produktai</a>
-    <a href="#">Kontaktai</a>                                        <!--TIKSLINTI NUORODĄ-->
-    <hr>
-    <h1>ŽAISLAS "ZUIKIS"</h1>
-    <br>
-        
-    <img src="../IMAGES/Zaislas2.jpg" height="300" alt="Zaislas2">
-    
-    <br>
-    <p>Pliušinis žaislas Nr.2</p>
-    
-    <p>Užsakymo forma:</p>
-    
-        <form action="" method="post">
-            <input type="text" value="" placeholder="Vardas"><br>
-            <input type="text" value="" placeholder="El.paštas"><br>
-            <input type="text" value="" placeholder="Telefonas"><br>
-            <p>Jūsų pranešimas mums:</p>
-            <textarea cols="40"></textarea>
-            <br>
-            <input type="submit">
-        
-        </form>
-        <br>
 
-    <hr>
-    &copy; :)
+<body class="body">
+    <header class="header">
+        <div class="wrapper">
+            <img src="../images/Eko_Toys_Logo.png" alt="logo">
+        </div>
+    </header>
 
+    <nav>
+        <div class="nav">
+            <!--Elementai ne "ul", kad "hover" pleciantis elementui nepasistumtu i sona kiti-->
+            <a href="../../index.html" target="_blank">Pagrindinis</a>
+            <a href="../../produktai.html" target="_blank">Produktai</a>
+            <a href="../../kontaktai.html" target="_blank">Kontaktai</a>
+        </div>
+    </nav>
 
+    <main>
+        <section class="section1-products">
+            <div class="wrapper-products">
+                <div class="assortment">
+                    <div class="div-products">
+                        <br>
+                        <h2>Užsakymo forma:</h2>
+                        <br>
+                        <form action="" method="post">
+                            <input type="text" value="" placeholder="Vardas">
+                            <br>
+                            <br>
+                            <br>
+                            <input type="text" value="" placeholder="Pavardė">
+                            <br>
+                            <br>
+                            <br>
+                            <input type="text" value="" placeholder="Telefonas">
+                            <br>
+                            <br>
+                            <br>
+                            <input type="text" value="" placeholder="El.paštas">
+                            <br>
+                            <br>
+                            <br>
+                            <p>Jūsų pranešimas mums:</p>
+                            <textarea cols="40"></textarea>
+                            <br>
+                            <input type="submit">
 
+                        </form>
+                        <br>
+                    </div>
+
+                    <div class="div-products">
+                        <h2>ŽAISLAS "ZUIKIS"</h2>
+                        <br>
+                        <img src="../IMAGES/Zaislas2.jpg" height="300" alt="Zaislas2">
+
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde tempore vitae blanditiis.
+                            Dolore sed rem perspiciatis maiores fugiat, enim dolorum saepe repellat amet recusandae,
+                            quaerat unde voluptatem! Distinctio aspernatur placeat
+                            veritatis omnis repellat nisi id ab nobis cumque dicta est modi, fugit eius laudantium
+                            nostrum facere porro?</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="div-footer">
+            <p>&copy; Mano pirmas puslapis</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
