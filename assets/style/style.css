@@ -319,14 +319,16 @@
 }
 
 .div-products{
-    max-width: 800px;
+    max-width: 700px;
     display: inline-block;
     vertical-align: top;
-    border: red solid 2px;   
+    margin-left: 25px; 
+    margin-right: 25px;
+
 }
 
 .div-products p{
-   padding: 5px;
+   padding: 5px 25px;
     
 }
 
