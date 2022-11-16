@@ -2,7 +2,5 @@
 
 Naudotos technologojos HTML + CSS
 
-## Heading level 2
-
-Printscreen
-![image](https://user-images.githubusercontent.com/117721797/202190806-7a5b3ba2-1838-476b-8cf5-2044640af2cc.png)
+## Printscreen
+![Printscreen](https://user-images.githubusercontent.com/117721797/202191550-c86e5748-b03b-43e1-ab3b-d19fc556efc1.png)
